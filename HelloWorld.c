@@ -34,5 +34,26 @@ int main(){
     //     printf("You are too young!");
     // }
 
-    // return 0;
+    // SWITCH
+    char grade;
+
+    printf("\nEnter a letter grade: ");
+    scanf("%c", &grade);
+
+    switch (grade)
+    {
+    case 'A':
+        printf("perfect");
+        break;
+    case 'B':
+        printf("Passable");
+        break;
+    case 'C':
+        printf("Null");
+        break;
+    default:
+        printf("Please enter a valid lettre");
+        break;
+    }
+    return 0;
 }
