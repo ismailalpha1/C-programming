@@ -35,25 +35,65 @@ int main(){
     // }
 
     // SWITCH
-    char grade;
+    // char grade;
 
-    printf("\nEnter a letter grade: ");
-    scanf("%c", &grade);
+    // printf("\nEnter a letter grade: ");
+    // scanf("%c", &grade);
 
-    switch (grade)
+    // switch (grade)
+    // {
+    // case 'A':
+    //     printf("perfect");
+    //     break;
+    // case 'B':
+    //     printf("Passable");
+    //     break;
+    // case 'C':
+    //     printf("Null");
+    //     break;
+    // default:
+    //     printf("Please enter a valid lettre");
+    //     break;
+    // }
+    // return 0;
+
+    //Calcul
+    char syn;
+    double num1;
+    double num2;
+    double result;
+
+    printf("Enter a symbole for an operation:");
+    scanf("%c", &syn);
+
+    printf("Enter a number: ");
+    scanf("%lf", &num1);
+    
+    printf("Enter another:");
+    scanf("%lf", &num2);
+
+    switch (syn)
     {
-    case 'A':
-        printf("perfect");
+    case '+':
+        result = num1 + num2;
+        printf("RESULT : %lf", result);
         break;
-    case 'B':
-        printf("Passable");
+    case '-':
+        result = num1 - num2;
+        printf("RESULT : %lf", result);
         break;
-    case 'C':
-        printf("Null");
+    case '/':
+        result = num1 / num2;
+        printf("RESULT : %lf", result);
+        break;
+    case '*':
+        result = num1 * num2;
+        printf("RESULT : %lf", result);
         break;
     default:
-        printf("Please enter a valid lettre");
+        printf("Veuillez entez un valid operator");
         break;
     }
+
     return 0;
 }
