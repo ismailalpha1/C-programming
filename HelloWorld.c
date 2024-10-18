@@ -22,6 +22,17 @@ int main(){
     // printf("\n Hello %s", name);
     // printf("\n You are %d old", age);
 
+    // if statements
+    // int age;
 
-    return 0;
+    // printf("\nEnter your age: ");
+    // scanf("%d", &age);
+
+    // if(age >= 18){
+    //     printf("You are now signed up!");
+    // }else{
+    //     printf("You are too young!");
+    // }
+
+    // return 0;
 }
