@@ -94,6 +94,30 @@ int main(){
         printf("Veuillez entez un operator");
         break;
     }
+    
+    switch (syn)
+    {
+    case '+':
+        result = num1 + num2;
+        printf("RESULT : %lf", result);
+        break;
+    case '-':
+        result = num1 - num2;
+        printf("RESULT : %lf", result);
+        break;
+    case '/':
+        result = num1 / num2;
+        printf("RESULT : %lf", result);
+        break;
+    case '*':
+        result = num1 * num2;
+        printf("RESULT : %lf", result);
+        break;
+    default:
+        printf("Veuillez entez un operator");
+        break;
+    }
+
 
     return 0;
 }
