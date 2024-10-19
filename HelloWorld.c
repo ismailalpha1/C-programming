@@ -91,7 +91,7 @@ int main(){
         printf("RESULT : %lf", result);
         break;
     default:
-        printf("Veuillez entez un valid operator");
+        printf("Veuillez entez un operator");
         break;
     }
 
