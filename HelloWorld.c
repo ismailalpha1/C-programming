@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+// function
+void birthday(char name[], int age){
+    printf("\nHappy birthday");
+    printf("\nHappy birthday");
+    printf("\nHappy birthday %s", name);
+    printf("\nYou are %d old now", age);
+}
 int main(){
     //variables
     // int d = 5; //%d for int 
@@ -58,66 +65,75 @@ int main(){
     // return 0;
 
     //Calcul
-    char syn;
-    double num1;
-    double num2;
-    double result;
+    // char syn;
+    // double num1;
+    // double num2;
+    // double result;
 
-    printf("Enter a symbole for an operation:");
-    scanf("%c", &syn);
+    // printf("Enter a symbole for an operation:");
+    // scanf("%c", &syn);
 
-    printf("Enter a number: ");
-    scanf("%lf", &num1);
+    // printf("Enter a number: ");
+    // scanf("%lf", &num1);
     
-    printf("Enter another:");
-    scanf("%lf", &num2);
+    // printf("Enter another:");
+    // scanf("%lf", &num2);
 
-    switch (syn)
-    {
-    case '+':
-        result = num1 + num2;
-        printf("RESULT : %lf", result);
-        break;
-    case '-':
-        result = num1 - num2;
-        printf("RESULT : %lf", result);
-        break;
-    case '/':
-        result = num1 / num2;
-        printf("RESULT : %lf", result);
-        break;
-    case '*':
-        result = num1 * num2;
-        printf("RESULT : %lf", result);
-        break;
-    default:
-        printf("Veuillez entez un operator");
-        break;
-    }
+    // switch (syn)
+    // {
+    // case '+':
+    //     result = num1 + num2;
+    //     printf("RESULT : %lf", result);
+    //     break;
+    // case '-':
+    //     result = num1 - num2;
+    //     printf("RESULT : %lf", result);
+    //     break;
+    // case '/':
+    //     result = num1 / num2;
+    //     printf("RESULT : %lf", result);
+    //     break;
+    // case '*':
+    //     result = num1 * num2;
+    //     printf("RESULT : %lf", result);
+    //     break;
+    // default:
+    //     printf("Veuillez entez un operator");
+    //     break;
+    // }
     
-    switch (syn)
-    {
-    case '+':
-        result = num1 + num2;
-        printf("RESULT : %lf", result);
-        break;
-    case '-':
-        result = num1 - num2;
-        printf("RESULT : %lf", result);
-        break;
-    case '/':
-        result = num1 / num2;
-        printf("RESULT : %lf", result);
-        break;
-    case '*':
-        result = num1 * num2;
-        printf("RESULT : %lf", result);
-        break;
-    default:
-        printf("Veuillez entez un operator");
-        break;
-    }
+    // switch (syn)
+    // {
+    // case '+':
+    //     result = num1 + num2;
+    //     printf("RESULT : %lf", result);
+    //     break;
+    // case '-':
+    //     result = num1 - num2;
+    //     printf("RESULT : %lf", result);
+    //     break;
+    // case '/':
+    //     result = num1 / num2;
+    //     printf("RESULT : %lf", result);
+    //     break;
+    // case '*':
+    //     result = num1 * num2;
+    //     printf("RESULT : %lf", result);
+    //     break;
+    // default:
+    //     printf("Veuillez entez un operator");
+    //     break;
+    // }
 
+    // float temp =25;
 
+    // if(temp<=20){
+    //     printf("Fresh");
+    // }else{
+    //     printf("sunny");
+    // }
+
+    //calling function
+    birthday("ismail",21);
     return 0;
 }
